@@ -1,0 +1,183 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.navright  {
+	float:right;
+	margin-right:10px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* crolling */
+}
+
+
+
+.mame {
+  background-color: red ;
+  overflow: auto;
+}
+.mame a {
+  float: left;;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body, html {
+  height: 70%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('images/img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+
+table{
+	margin:auto;
+}	
+
+
+.cMonTableau {
+    width:400px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-style: solid;  /* medium|thin|thick|length|initial|inherit */
+    border-color: blue;
+    border-width: 10px;
+	
+}
+
+h1 {
+	padding-top: 50px ;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: wavy;
+    text-align: center;
+    color:darkblue;
+
+}
+
+
+ 
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color:black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.menu {
+  background-color: #87CEFA ;
+  overflow: auto;
+  
+  
+  
+  	.header{
+		display: block;
+		width: 100%;
+		height: 5em;
+		position: fixed;
+		background-color: blue;
+		top: 0;
+		overflow: hidden;
+		position: sticky;
+		overflow: hidden;
+	
+	}
+	
+	
+	
+	
+	.mamep span {
+					display: none;
+					position: absolute;  
+					width:150px;
+					margin-left:-70%; 
+					top:-890%;
+					padding: 0 .25em;     
+					color: #eee;          
+					background: #069;     
+					transition: all .5s;  
+					opacity:0.7;
+					border-radius:10%;
+					
+					}
+				.title{
+					text-align:center;
+					font-size:22px;
+					font-style:bold;
+					color:#fff;
+					padding-bottom:7px;
+					padding-top:7px;
+				}
+				.title1{
+					text-align:center;
+					font-size:14px;
+					font-style:bold;
+					color:#fff;
+					padding-bottom:7px;
+					padding-top:7px;
+				}
+				#ville{
+					height:150px;
+					width:150px;
+					border-radius:60px;
+					margin-top:20px;
+				}
