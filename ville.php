@@ -87,7 +87,7 @@ $rep ->closeCursor();
 			<div class="column" style="background-color:#004C8C;">
 				<h2><?php echo $ligne['nom'] ?></h2>
 				<div><?php echo " <a href='ville.php?nom=".$ligne["nom"]."' >" ?> <img style = 'width:150px;height:150px;border: 1px solid #115A83;border-radius:75px'  src= <?php echo  $ligne["image"];?> alt="Image ville"  /> </a></div>
-				<p><a href='lectureAvis.php?ville=".$ligne["nom"]."' >  <img  style="width: 50px;height:50px;" src = 'images/lire-avis3.png'> </a> <a href='donnerAvis.php'> <img style="width: 50px;px;height: 50px;" src = 'images/ajouter2.png'></a> <?php echo "<a href='historiqueAvis.php?nom=".$ligne["nom"]."' >" ?><img style="width: 50px;height:50px;" src = 'images/lire_plus.png'></a> </p>
+				<p><a href='lire_Avis.php?ville=".$ligne["nom"]."' >  <img  style="width: 50px;height:50px;" src = 'images/lire-avis3.png'> </a> <a href='donner_Avis.php'> <img style="width: 50px;px;height: 50px;" src = 'images/ajouter2.png'></a> <?php echo "<a href='historiqueAvis.php?nom=".$ligne["nom"]."' >" ?><img style="width: 50px;height:50px;" src = 'images/lire_plus.png'></a> </p>
 			</div>
 		<?php	}?>
 	</div>
