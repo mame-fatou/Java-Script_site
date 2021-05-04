@@ -19,6 +19,11 @@
 		<?php
 			if (isset($_SESSION['utilisateur'])){ ?>
         		<div >
+				<p>avis</p>
+				
+				
+				
+				<p></p>
 					<a href  = "historiqueAvis.php?id"><img class = icone style="width: 75px;height:75px;" src = 'images/historique.png'></a>
 					<form method="GET" action="ajouter_Avis.php" autocomplete="off">
 						<input type="hidden" name="id" step=0 value="<?php $_SESSION['utilisateur'][0]; ?> "/>
