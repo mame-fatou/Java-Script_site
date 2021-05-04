@@ -56,7 +56,7 @@
 		
 			include('bd.php'); 
 			$bdd = getBD();	
-			$Ville= $_GET["ville"];
+			$Ville= $_GET["nom"];
 			$rep=$bdd->query('select * from ville where nom=\''.$Ville.'\''); 
 			$rep1=$bdd->query('select * from avis where nom=\''.$Ville.'\''); 
 			$ligne=$rep->fetch();
